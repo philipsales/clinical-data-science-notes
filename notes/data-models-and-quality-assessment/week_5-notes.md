@@ -12,6 +12,11 @@ kernelspec:
 # MIMIC-III Data Models #
 
 ## Resources
+- [Final Assignment](https://docs.google.com/presentation/d/1Gelkq4mvVL6C72AQ2IlZK1mf-XmqbD0P1bEb8zU1PtI/edit#slide=id.p)
+
+- [Nero Data Science Platform](https://med.stanford.edu/starr-omop/nero.html)
+- Paper
+    - [Starr-OMOP](https://arxiv.org/pdf/2003.10534.pdf)
 
 ## Week 4 - Practical Application 
 
@@ -43,12 +48,23 @@ kernelspec:
 ### Step 4. Write transformation code
 - work down list list of source and target tables
 
-### Step 5. Executing the transformation
+### Step 5. Executing the transformations to create target table(s)
 - SQL-centric or programming langauge-centric
 
 ### Step 6. Data Quality Assessment
 - pre-transformatino vs post-transformation
 
-### Step 7. Package Documentation
+### Step 7. Documentation
+- What was done
 - decision/assumptions made
 - edge cases/unusual situations
+- `Other` documentation
+    - Data quality findings
+    - assumptions/short cuts/known issues
+    - Conventions used to
+        - Process bad data
+            - missing data
+            - out-of-range
+            - wrong format
+        - Termininology mapping decisions
+            - inexact match
