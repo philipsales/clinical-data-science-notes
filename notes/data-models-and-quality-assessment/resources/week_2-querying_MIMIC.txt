@@ -1,0 +1,41 @@
+-- Querying MIMIC(C2M2V2)
+-- How many patients
+select count(distinct subject_id) as NUM_PTs
+from `mimic3_demo.PATIENTS`
+
+--How many admissions
+select count(distinct hadm_id) as NUM_ADMISSIONS
+from `mimic3_demo.ADMISSIONS` 
+
+-- Counts of diagnoses by patients NO LABELS
+select ICD9_CODE, count(distinct SUBJECT_ID) as CNT_DX
+from `mimic3_demo.DIAGNOSES_ICD` 
+group by ICD9_CODE
+order by count(distinct SUBJECT_ID) desc
+
+
+--Counts of diagnoses by patients WITH LABELS
+select dx.ICD9_CODE, ddx.SHORT_TITLE,
+       count(distinct dx.SUBJECT_ID) as CNT_DX
+from `mimic3_demo.DIAGNOSES_ICD`  dx
+    JOIN `mimic3_demo.D_ICD_DIAGNOSES` ddx using (ICD9_CODE)
+group by dx.ICD9_CODE, ddx.SHORT_TITLE
+order by count(distinct dx.SUBJECT_ID) desc
+
+-- Number of drugs per patient per admission
+select SUBJECT_ID, HADM_ID,
+       count(DISTINCT DRUG) as CNT_DRUG
+from `mimic3_demo.PRESCRIPTIONS` 
+GROUP BY SUBJECT_ID, HADM_ID
+order by count(DISTINCT DRUG) desc
+
+-- Average number of drugs across all admissions
+select avg(CNT_DRUG) as AVG_DRUG_CNT
+FROM
+   (select SUBJECT_ID, HADM_ID,
+       count(DISTINCT DRUG) as CNT_DRUG
+       from `mimic3_demo.PRESCRIPTIONS` 
+       GROUP BY SUBJECT_ID, HADM_ID)
+
+
+
