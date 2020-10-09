@@ -15,7 +15,8 @@ kernelspec:
 - [ Data Quality Assessment Terminology and Framework](https://d3c33hcgiwev3.cloudfront.net/fkVrCgrOEemP8Qpm209XvA_7e56a8a00ace11e99ff16dafffcf4ae2_Kahn---2016---A-Harmonized-Data-Quality-Assessment-Terminology-and-Framework-for-the-Secondary-Use-of-Electronic-Health-Record-Data.pdf?Expires=1602115200&Signature=eL0CUF-~L3ODe3SAEfSrQjWzRKjNtWqrhjIyWt3eZqcew1J0k1pmOyS64Ub2TK1zNvO8bcjFsF8cBQVsQhAxNXvTTcM1wfzetRw2mxun4DG2HFJ7n9NNF5v~hXSDhFcbkoyhAbRbWKXSsUr3udJnRANXqter2xLuoTplyf6Vs7E_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 - [A Comparison Of Data Quality Assessment
 Checks In Six Data Sharing Networks](https://d3c33hcgiwev3.cloudfront.net/MOi60ArOEem5_xLqNrIdUA_30fb0a100ace11e9be2dd9993e1c644d_Callahan---2017---A-comparison-of-Data-Quality-Assessment-Checks-in-Six-Data-Sharing-Networks.pdf?Expires=1602115200&Signature=eJpiEb9fBzTpSTY~42xzeUmF0~dEB--Wq3iSHZMKVPVzUqII3wmgefK5P6JdjLzNfGIenImYASeJ4GHhxazjh46xcmPxlCMp6zQEywVUNqSbPLwL730NgyF-keK76BF8dudp6oG-cVqT6cUWTSz6hBLrPQq6OrNWZDaojSxMQqQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-
+- [Design and Refinement of a Data Quality Assessment Workflow for a Large Pediatric Research Network](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6676917/)
+-[A Harmonized Data Quality Assessment Terminology and Framework for the Secondary Use of Electronic Health Record Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5051581/)
 ## Week 4 - Data Quality Assessments
 
 ## I. Components of Data Quality

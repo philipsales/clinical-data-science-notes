@@ -12,29 +12,6 @@ kernelspec:
 # Clinical Data Models #
 
 ## Week 1 - Introduction 
-## Resources
-- Papers
-    - [Common Data Models (CDMs) to Enhance International Big Data Analytics: A Diabetes Use Case to Compare Three CDMs](https://d3c33hcgiwev3.cloudfront.net/cT5eWgAFEemAgQrXx6bp4g_7166f4c0000511e99b75572b09ecdbb4_Harshana-et-al.---2018---Common-Data-Models-_CDMs_-to-Enhance-International.pdf?Expires=1602288000&Signature=ZQUF0rcpDbDcLYDRzGC8KmvwzBUfce0wZCbFCl04MU9vfnUeLWh8BcJQHW4B1NeGpFjCaY1wJ772X~AtChmAKkSjW96KYXkvqLGN-7uiDrEEQgK5PXSa8ymdXPQtlePoELGWuRxE47qMieanZS8uwG~NMXO8ZSa9r8KPB2p-j7M_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A) 
-
-    - [Serving the enterprise and beyond with informatics
-    for integrating biology and the bedside (i2b2)](https://d3c33hcgiwev3.cloudfront.net/cUBaKwAFEemAgQrXx6bp4g_7165bc40000511e9ac516f5d6962b7b8_Murphy-et-al.---2010---Serving-the-enterprise-and-beyond-with-informatics.pdf?Expires=1602288000&Signature=UU1qip7NLwqXK-oWN1dqxKGo-GJCxqxeVxlwboeEhbsmClL51tIIYWMwaO7IZzhjBsw9v2mSIVfZF2a~YDDQ1uZtfX1AqyiR6nxiGWTHWaw2EifJPmIerySleBe08GA~iEZ~aS3aMNHE2OfaekoE0fyyn851nmMFU9fDcFm6xTA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-    
-    - [Data Model Considerations for Clinical
-Effectiveness Researchers](https://d3c33hcgiwev3.cloudfront.net/cRTRhwrHEemYdRIT0BhLtg_714afbe00ac711e980d6e7465a739109_Kahn---2012---Medical-Care.pdf?Expires=1602288000&Signature=T2FHJaprnAgz7Lv5XQF1HZ4OSbzQS4IfIZsyasnPPBSmMg4LqBZR36Fq9SuSpnPfUqdBAjuzSeG9485IDTu0CEdaMge5~As0ZwKVrxtmdTgeOztKnMSAcDTGL68SnnwHFdbapDg0D6VEPnYdcGwlUQJaeRcSRMeIKcOgXIK4a6M_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-    
-    - [Identifying Appropriate Reference Data Models for
-Comparative Effectiveness Research (CER) Studies Based
-on Data from Clinical Information Systems](https://d3c33hcgiwev3.cloudfront.net/VOZjwArJEemP8Qpm209XvA_551897500ac911e9be2dd9993e1c644d_Identifying-Appropriate-Reference-Data-Models-for-.9.pdf?Expires=1602288000&Signature=h5Mzh-MJKtCVYIFQbUvLe2TK4Ycve9XcNHYMJHK3ObKavANbMNMWNF0utlckWlRHoYAj42ZJdqL80SOfgG409VTm7XXiFlECbxxkRi3K1zUF4cm4ob3G6Jvb7TlTJ20ZvzlX34HM4aF90OtyK1i-F0VN8tC1qi1~zZ4UhYfHVp4_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-
-- [MIMIC IV Website](https://mimic-iv.mit.edu/)
-- [MIMIC III Website](https://mimic.physionet.org/)
-- [MIMIC III Schema Official](https://mit-lcp.github.io/mimic-schema-spy/relationships.html)
-- [MIMIC III Schema](https://cloud.githubusercontent.com/assets/26095093/23737659/454872b0-0449-11e7-987d-639b0415dca4.png)
-
-- [MIMIC III Repository](https://github.com/MIT-lcp/mimic-code)
-- [Finding the Missing Link for Big Biomedical Data](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.452.9557&rep=rep1&type=pdf)
-
-
 ### Common Data Model
 - Definition
     - specifies the single location , specific table and column name, allowed values for each data element
@@ -137,14 +114,6 @@ on Data from Clinical Information Systems](https://d3c33hcgiwev3.cloudfront.net/
 
 
 ## Week 2 - Tools: Querying Clinical Data Model
-## Resources
-
-[MIMIC-III Overview](https://d3c33hcgiwev3.cloudfront.net/BPhv1ArLEem6Pgo4-YwqLg_052af1500acb11e980d6e7465a739109_Data-Descriptor-MIMIC-III_-a-freely-accessible-critical-care-database.pdf?Expires=1602028800&Signature=M48DqhjyhvMWdteVnNlufTVbh~oOgTS10SJT3i33ua4jyCLLUAt2ZoCB7MrsaOqXFkS1ViZqgRS-qHkeBqPBSPP~bFfdxs9l16edjlvZcz7pHgXH4Sk1SW4kYpifbIW3x9qmGJxm2TvdyB-smMalOVNJZnsXusZhbRTuegkPzAg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-
-[MIMIC-III Bigquery SQL Scripts](https://d3c33hcgiwev3.cloudfront.net/5iLW3wAFEemTKQ5ajE7PqA_e62f8060000511e9abba8fe04eb746ff_Module-2-SQL-statements.sql?Expires=1602028800&Signature=ShGVnuLTAO6qy0-127yr1zmfoYrBA1LpmQOSLOUaH3doXkDRYnEatGL~Y4xjj0y4Kwef2q0bMX7GEIKHzg5v2iXZ1GjbG5wgVQKkKmpYdFFHotcrxEaRebC6ZPFlweGxpbxO9XPAIdbl9QWA6nAqxDHb1EMty~vm3wb1biA2nS8_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-
-[OHDSI.org](https://ohdsi.org/)
-
 
 ### MIMIC-III DEEP DIVE
 - MiMIC - Medical Information Marked for Intensive Care
@@ -195,18 +164,6 @@ on Data from Clinical Information Systems](https://d3c33hcgiwev3.cloudfront.net/
 
 
 ## Week 3 -  Extract-Transform-Load and Terminology Mapping 
-## Resources
-
-- [ETL Framework - A Framework for Classification of Electronic
-Health Data Extraction-Transformation-Loading
-Challenges in Data Network Participation](https://d3c33hcgiwev3.cloudfront.net/v3QLEQrMEem5_xLqNrIdUA_bfa9c0500acc11e9a21b976d3b0c3f75_Ong---2017---A-Framework-for-Classification-of-Electronic-Health-Data-ETL-Challenges-in-Data-Network-Participation.pdf?Expires=1602115200&Signature=ic~BktJhNyAgrwUQkWc-r-SfoJ6ME6439AtZ5dnNZc5HQtO-2yq3uHK4DbB~VIUOgESCFz695g90VX0N4H8xajuegM6spV8JdRclv2ZnqbyFfCNR7lpcUvQDvARQYRdUna2kbGTj3qWTLZaodDL6t3bV3y-sCEuBzJk-9O0KDY8_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-
-- [Data Profiling Tool - White Rabbit](https://d3c33hcgiwev3.cloudfront.net/v3QLEQrMEem5_xLqNrIdUA_bfa9c0500acc11e9a21b976d3b0c3f75_Ong---2017---A-Framework-for-Classification-of-Electronic-Health-Data-ETL-Challenges-in-Data-Network-Participation.pdf?Expires=1602115200&Signature=ic~BktJhNyAgrwUQkWc-r-SfoJ6ME6439AtZ5dnNZc5HQtO-2yq3uHK4DbB~VIUOgESCFz695g90VX0N4H8xajuegM6spV8JdRclv2ZnqbyFfCNR7lpcUvQDvARQYRdUna2kbGTj3qWTLZaodDL6t3bV3y-sCEuBzJk-9O0KDY8_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-
-- [White Rabbit Instructions](https://d3c33hcgiwev3.cloudfront.net/eaZcmQrNEemP8Qpm209XvA_846c3c100acd11e982a70b671e3968a0_White-Rabbit-Wiki-Instructions.pdf?Expires=1602115200&Signature=GYREPe25cAayacqLItmn8Mv4dRRyZAe4C7ZrIJRoenDYykX~TvkOkuUL44g~aLjV-43dD6z-r7gDsDs2qRM5mL5y89fKxPjniwl-F3Ebblm1e8kOl097N7toFa1MfNd4xo-5KAtSXbHtZD0WBPai4pORfXfj6VYpWH6fnJxVICE_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-- [White Rabbit Sample Output](https://d3c33hcgiwev3.cloudfront.net/xEnpQwAHEem5Kg7DUflKxA_c4753ee0000711e9a289791da6d76b4f_ScanReport_MIMIC_Full_MIMIC.xlsx?Expires=1602115200&Signature=R2wUjN7Ke5OiQtuXpezmm099K6wBI1pKrazGnDRFCGcZe0BEVpiHB9IOqBLkB9XSdgcUXigt3Y6LaN9P8HS-tAAtPOVh55shM4mIxRd3K5O1faWpnl5mI6ajoJmen7K5aKHED0hZ~BWRuqm7EUCAP3PXZweQsXCV5qVLqdBY8-Y_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-
-
 ### Structural versus Terminology Mapping
 1. Structural Mapping a.k.a `Syntactic Mapping`
     - ERD redesigning to accommodate other fields
@@ -253,11 +210,6 @@ Challenges in Data Network Participation](https://d3c33hcgiwev3.cloudfront.net/v
     - when there is no target term/column to map the source column
 
 ## Week 4 - Data Quality Assessments
-
-## Resources
-- [ Data Quality Assessment Terminology and Framework](https://d3c33hcgiwev3.cloudfront.net/fkVrCgrOEemP8Qpm209XvA_7e56a8a00ace11e99ff16dafffcf4ae2_Kahn---2016---A-Harmonized-Data-Quality-Assessment-Terminology-and-Framework-for-the-Secondary-Use-of-Electronic-Health-Record-Data.pdf?Expires=1602115200&Signature=eL0CUF-~L3ODe3SAEfSrQjWzRKjNtWqrhjIyWt3eZqcew1J0k1pmOyS64Ub2TK1zNvO8bcjFsF8cBQVsQhAxNXvTTcM1wfzetRw2mxun4DG2HFJ7n9NNF5v~hXSDhFcbkoyhAbRbWKXSsUr3udJnRANXqter2xLuoTplyf6Vs7E_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-- [A Comparison Of Data Quality Assessment
-Checks In Six Data Sharing Networks](https://d3c33hcgiwev3.cloudfront.net/MOi60ArOEem5_xLqNrIdUA_30fb0a100ace11e9be2dd9993e1c644d_Callahan---2017---A-comparison-of-Data-Quality-Assessment-Checks-in-Six-Data-Sharing-Networks.pdf?Expires=1602115200&Signature=eJpiEb9fBzTpSTY~42xzeUmF0~dEB--Wq3iSHZMKVPVzUqII3wmgefK5P6JdjLzNfGIenImYASeJ4GHhxazjh46xcmPxlCMp6zQEywVUNqSbPLwL730NgyF-keK76BF8dudp6oG-cVqT6cUWTSz6hBLrPQq6OrNWZDaojSxMQqQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
 
 ## I. Components of Data Quality
@@ -375,14 +327,7 @@ Checks In Six Data Sharing Networks](https://d3c33hcgiwev3.cloudfront.net/MOi60A
     - example, are immunization sequences in line with recommendations? 
 
 
-## Week 4 - Practical Application 
-## Resources
-- [Final Assignment](https://docs.google.com/presentation/d/1Gelkq4mvVL6C72AQ2IlZK1mf-XmqbD0P1bEb8zU1PtI/edit#slide=id.p)
-
-- [Nero Data Science Platform](https://med.stanford.edu/starr-omop/nero.html)
-- Paper
-    - [Starr-OMOP](https://arxiv.org/pdf/2003.10534.pdf)
-
+## Week 5 - Practical Application 
 ## I. High Level ETL Process 
 ### 1. Extract
 - data exporting
@@ -431,3 +376,59 @@ Checks In Six Data Sharing Networks](https://d3c33hcgiwev3.cloudfront.net/MOi60A
             - wrong format
         - Termininology mapping decisions
             - inexact match
+
+
+## Resources
+### Week 1 - Introduction 
+- Papers
+    - [Common Data Models (CDMs) to Enhance International Big Data Analytics: A Diabetes Use Case to Compare Three CDMs](https://d3c33hcgiwev3.cloudfront.net/cT5eWgAFEemAgQrXx6bp4g_7166f4c0000511e99b75572b09ecdbb4_Harshana-et-al.---2018---Common-Data-Models-_CDMs_-to-Enhance-International.pdf?Expires=1602288000&Signature=ZQUF0rcpDbDcLYDRzGC8KmvwzBUfce0wZCbFCl04MU9vfnUeLWh8BcJQHW4B1NeGpFjCaY1wJ772X~AtChmAKkSjW96KYXkvqLGN-7uiDrEEQgK5PXSa8ymdXPQtlePoELGWuRxE47qMieanZS8uwG~NMXO8ZSa9r8KPB2p-j7M_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A) 
+
+    - [Serving the enterprise and beyond with informatics
+    for integrating biology and the bedside (i2b2)](https://d3c33hcgiwev3.cloudfront.net/cUBaKwAFEemAgQrXx6bp4g_7165bc40000511e9ac516f5d6962b7b8_Murphy-et-al.---2010---Serving-the-enterprise-and-beyond-with-informatics.pdf?Expires=1602288000&Signature=UU1qip7NLwqXK-oWN1dqxKGo-GJCxqxeVxlwboeEhbsmClL51tIIYWMwaO7IZzhjBsw9v2mSIVfZF2a~YDDQ1uZtfX1AqyiR6nxiGWTHWaw2EifJPmIerySleBe08GA~iEZ~aS3aMNHE2OfaekoE0fyyn851nmMFU9fDcFm6xTA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+    
+    - [Data Model Considerations for Clinical
+Effectiveness Researchers](https://d3c33hcgiwev3.cloudfront.net/cRTRhwrHEemYdRIT0BhLtg_714afbe00ac711e980d6e7465a739109_Kahn---2012---Medical-Care.pdf?Expires=1602288000&Signature=T2FHJaprnAgz7Lv5XQF1HZ4OSbzQS4IfIZsyasnPPBSmMg4LqBZR36Fq9SuSpnPfUqdBAjuzSeG9485IDTu0CEdaMge5~As0ZwKVrxtmdTgeOztKnMSAcDTGL68SnnwHFdbapDg0D6VEPnYdcGwlUQJaeRcSRMeIKcOgXIK4a6M_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+    
+    - [Identifying Appropriate Reference Data Models for
+Comparative Effectiveness Research (CER) Studies Based
+on Data from Clinical Information Systems](https://d3c33hcgiwev3.cloudfront.net/VOZjwArJEemP8Qpm209XvA_551897500ac911e9be2dd9993e1c644d_Identifying-Appropriate-Reference-Data-Models-for-.9.pdf?Expires=1602288000&Signature=h5Mzh-MJKtCVYIFQbUvLe2TK4Ycve9XcNHYMJHK3ObKavANbMNMWNF0utlckWlRHoYAj42ZJdqL80SOfgG409VTm7XXiFlECbxxkRi3K1zUF4cm4ob3G6Jvb7TlTJ20ZvzlX34HM4aF90OtyK1i-F0VN8tC1qi1~zZ4UhYfHVp4_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+
+- [MIMIC IV Website](https://mimic-iv.mit.edu/)
+- [MIMIC III Website](https://mimic.physionet.org/)
+- [MIMIC III Schema Official](https://mit-lcp.github.io/mimic-schema-spy/relationships.html)
+- [MIMIC III Schema](https://cloud.githubusercontent.com/assets/26095093/23737659/454872b0-0449-11e7-987d-639b0415dca4.png)
+
+- [MIMIC III Repository](https://github.com/MIT-lcp/mimic-code)
+- [Finding the Missing Link for Big Biomedical Data](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.452.9557&rep=rep1&type=pdf)
+
+
+### Week 2 - Tools: Querying Clinical Data Model
+- [MIMIC-III Overview](https://d3c33hcgiwev3.cloudfront.net/BPhv1ArLEem6Pgo4-YwqLg_052af1500acb11e980d6e7465a739109_Data-Descriptor-MIMIC-III_-a-freely-accessible-critical-care-database.pdf?Expires=1602028800&Signature=M48DqhjyhvMWdteVnNlufTVbh~oOgTS10SJT3i33ua4jyCLLUAt2ZoCB7MrsaOqXFkS1ViZqgRS-qHkeBqPBSPP~bFfdxs9l16edjlvZcz7pHgXH4Sk1SW4kYpifbIW3x9qmGJxm2TvdyB-smMalOVNJZnsXusZhbRTuegkPzAg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+
+- [MIMIC-III Bigquery SQL Scripts](https://d3c33hcgiwev3.cloudfront.net/5iLW3wAFEemTKQ5ajE7PqA_e62f8060000511e9abba8fe04eb746ff_Module-2-SQL-statements.sql?Expires=1602028800&Signature=ShGVnuLTAO6qy0-127yr1zmfoYrBA1LpmQOSLOUaH3doXkDRYnEatGL~Y4xjj0y4Kwef2q0bMX7GEIKHzg5v2iXZ1GjbG5wgVQKkKmpYdFFHotcrxEaRebC6ZPFlweGxpbxO9XPAIdbl9QWA6nAqxDHb1EMty~vm3wb1biA2nS8_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+
+- [OHDSI.org](https://ohdsi.org/)
+
+### Week 3 -  Extract-Transform-Load and Terminology Mapping 
+- [ETL Framework - A Framework for Classification of Electronic
+Health Data Extraction-Transformation-Loading
+Challenges in Data Network Participation](https://d3c33hcgiwev3.cloudfront.net/v3QLEQrMEem5_xLqNrIdUA_bfa9c0500acc11e9a21b976d3b0c3f75_Ong---2017---A-Framework-for-Classification-of-Electronic-Health-Data-ETL-Challenges-in-Data-Network-Participation.pdf?Expires=1602115200&Signature=ic~BktJhNyAgrwUQkWc-r-SfoJ6ME6439AtZ5dnNZc5HQtO-2yq3uHK4DbB~VIUOgESCFz695g90VX0N4H8xajuegM6spV8JdRclv2ZnqbyFfCNR7lpcUvQDvARQYRdUna2kbGTj3qWTLZaodDL6t3bV3y-sCEuBzJk-9O0KDY8_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+
+- [Data Profiling Tool - White Rabbit](https://d3c33hcgiwev3.cloudfront.net/v3QLEQrMEem5_xLqNrIdUA_bfa9c0500acc11e9a21b976d3b0c3f75_Ong---2017---A-Framework-for-Classification-of-Electronic-Health-Data-ETL-Challenges-in-Data-Network-Participation.pdf?Expires=1602115200&Signature=ic~BktJhNyAgrwUQkWc-r-SfoJ6ME6439AtZ5dnNZc5HQtO-2yq3uHK4DbB~VIUOgESCFz695g90VX0N4H8xajuegM6spV8JdRclv2ZnqbyFfCNR7lpcUvQDvARQYRdUna2kbGTj3qWTLZaodDL6t3bV3y-sCEuBzJk-9O0KDY8_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+
+- [White Rabbit Instructions](https://d3c33hcgiwev3.cloudfront.net/eaZcmQrNEemP8Qpm209XvA_846c3c100acd11e982a70b671e3968a0_White-Rabbit-Wiki-Instructions.pdf?Expires=1602115200&Signature=GYREPe25cAayacqLItmn8Mv4dRRyZAe4C7ZrIJRoenDYykX~TvkOkuUL44g~aLjV-43dD6z-r7gDsDs2qRM5mL5y89fKxPjniwl-F3Ebblm1e8kOl097N7toFa1MfNd4xo-5KAtSXbHtZD0WBPai4pORfXfj6VYpWH6fnJxVICE_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+- [White Rabbit Sample Output](https://d3c33hcgiwev3.cloudfront.net/xEnpQwAHEem5Kg7DUflKxA_c4753ee0000711e9a289791da6d76b4f_ScanReport_MIMIC_Full_MIMIC.xlsx?Expires=1602115200&Signature=R2wUjN7Ke5OiQtuXpezmm099K6wBI1pKrazGnDRFCGcZe0BEVpiHB9IOqBLkB9XSdgcUXigt3Y6LaN9P8HS-tAAtPOVh55shM4mIxRd3K5O1faWpnl5mI6ajoJmen7K5aKHED0hZ~BWRuqm7EUCAP3PXZweQsXCV5qVLqdBY8-Y_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+
+### Week 4 - Data Quality Assessments
+- [ Data Quality Assessment Terminology and Framework](https://d3c33hcgiwev3.cloudfront.net/fkVrCgrOEemP8Qpm209XvA_7e56a8a00ace11e99ff16dafffcf4ae2_Kahn---2016---A-Harmonized-Data-Quality-Assessment-Terminology-and-Framework-for-the-Secondary-Use-of-Electronic-Health-Record-Data.pdf?Expires=1602115200&Signature=eL0CUF-~L3ODe3SAEfSrQjWzRKjNtWqrhjIyWt3eZqcew1J0k1pmOyS64Ub2TK1zNvO8bcjFsF8cBQVsQhAxNXvTTcM1wfzetRw2mxun4DG2HFJ7n9NNF5v~hXSDhFcbkoyhAbRbWKXSsUr3udJnRANXqter2xLuoTplyf6Vs7E_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+- [A Comparison Of Data Quality Assessment
+Checks In Six Data Sharing Networks](https://d3c33hcgiwev3.cloudfront.net/MOi60ArOEem5_xLqNrIdUA_30fb0a100ace11e9be2dd9993e1c644d_Callahan---2017---A-comparison-of-Data-Quality-Assessment-Checks-in-Six-Data-Sharing-Networks.pdf?Expires=1602115200&Signature=eJpiEb9fBzTpSTY~42xzeUmF0~dEB--Wq3iSHZMKVPVzUqII3wmgefK5P6JdjLzNfGIenImYASeJ4GHhxazjh46xcmPxlCMp6zQEywVUNqSbPLwL730NgyF-keK76BF8dudp6oG-cVqT6cUWTSz6hBLrPQq6OrNWZDaojSxMQqQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+- [Design and Refinement of a Data Quality Assessment Workflow for a Large Pediatric Research Network](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6676917/)
+-[A Harmonized Data Quality Assessment Terminology and Framework for the Secondary Use of Electronic Health Record Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5051581/)
+
+### Week 5 - Practical Application 
+- [Final Assignment](https://docs.google.com/presentation/d/1Gelkq4mvVL6C72AQ2IlZK1mf-XmqbD0P1bEb8zU1PtI/edit#slide=id.p)
+
+- [Nero Data Science Platform](https://med.stanford.edu/starr-omop/nero.html)
+- Paper
+    - [Starr-OMOP](https://arxiv.org/pdf/2003.10534.pdf)
