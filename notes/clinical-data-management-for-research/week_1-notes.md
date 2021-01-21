@@ -70,6 +70,7 @@ kernelspec:
     - garbage in - garbage out
 1. Define all data you will collect before seing first research subject
     - ethics and study reliability
+    - avoid inconvenience to participants
 1. Alway follow Good Practice
     - develop primary hypothesis
     - define primary and secondary outcome measurements necessary to test hypothesis 
@@ -91,11 +92,12 @@ kernelspec:
         - e.g. race, gender -> age, height, weight
         - e.g. height, weight -> BMI
     - store ***raw data fields*** rather than calculated values
+        - e.g. age vs birthdate
     - allow possibility of ***missing data*** in fields
-        - develop codes for missing values
+        - ***`develop codes for missing values`***
             - not applicable (000)
             - not collected (001)
-            - doesnt' remember (002)
+            - doesn't remember (002)
             - will not disclose (003)
         - do not use physically possible values as the code
             - e.g. if age unknown, enter '99' - 99 can be a valid age

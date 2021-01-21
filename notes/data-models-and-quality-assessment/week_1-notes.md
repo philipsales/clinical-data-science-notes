@@ -135,8 +135,5 @@ on Data from Clinical Information Systems](https://d3c33hcgiwev3.cloudfront.net/
 ### MIMIC-III Schema 
  ![Images](images/MIMIC-III_schema.png)
 
- 
-
-
-
-$$ \theta \sum \frac{1}{2} $$
+### USA Core Data for Interoperability (USCDI) CDA
+ ![Images](images/USCDI_CDA.png)

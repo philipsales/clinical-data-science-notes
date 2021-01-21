@@ -6,10 +6,17 @@
     #- file: docs/getting_started
     #- file: docs/python_by_example
     #- file: docs/learn_more
-- part: Data Models
+- part: Data Models 
   sections:
-    - file: docs/clinical_data_management
+    - file:  docs/clinical_data_models_and_quality_assessment
 
 - part: Data Management 
   sections:
-    - file: docs/clinical_data_models
+    - file: docs/clinical_data_management_for_research
+
+- part: OHDSI
+  sections:
+    - file: docs/ohdsi_intro
+    - file: docs/ohdsi_odm_standardized_vocabulary
+    - file: docs/ohdsi_etl
+
