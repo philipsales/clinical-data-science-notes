@@ -12,20 +12,27 @@ kernelspec:
 # OMOP CDM and Vocabulary #
 
 ## Resources
-
-- [Patient Story](https://www.endometriosis-uk.org/laurens-story)
-- [OHDSI Book](https://ohdsi.github.io/TheBookOfOhdsi/StandardizedVocabularies.html)
-- [OHDSI CMD slides](https://www.ohdsi.org/wp-content/uploads/2018/10/20181010-OHDSI-Vocabulary-CDM-Tutorial.pdf)
-- [OHDSI CDM wiki](https://ohdsi.github.io/CommonDataModel/index.html)
-- [OHDSI CDM paper](https://www.sciencedirect.com/science/article/pii/S153204641200069X?via%3Dihub)
-- [OHDSI github](https://github.com/OHDSI/CommonDataModel)
+- ETL convetion
+    - [CDM ETL Specification PEDSNet](https://pedsnet.org/documents/206/ETL_Conventions_for_use_with_PEDSnet_CDM_v3.1_OMOP_V5.2.pdf)
+- Links
+    - [Cohort/Phenotype Knowledge Library](https://phekb.org/phenotypes/)
+- Paper
+    - [Electronic phenotyping with APHRODITE and the Observational Health Sciences and Informatics (OHDSI) data network](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543379/)
+- OHDSI Discussion
+    - [Patient Story](https://www.endometriosis-uk.org/laurens-story)
+    - [OHDSI Book](https://ohdsi.github.io/TheBookOfOhdsi/StandardizedVocabularies.html)
+    - [OHDSI CMD slides](https://www.ohdsi.org/wp-content/uploads/2018/10/20181010-OHDSI-Vocabulary-CDM-Tutorial.pdf)
+    - [OHDSI CDM wiki](https://ohdsi.github.io/CommonDataModel/index.html)
+    - [OHDSI CDM paper](https://www.sciencedirect.com/science/article/pii/S153204641200069X?via%3Dihub)
+    - [OHDSI github](https://github.com/OHDSI/CommonDataModel)
 
 ## Tools
 - [Query Library](https://data.ohdsi.org/QueryLibrary/)
 - [Query Library wiki](https://github.com/EHDEN/QueryLibrary)
 
 
-## Vocabulary ##
+
+## OMOP Vocabulary ##
 
 ### Disease Hierarchy ##
 > **Important when building cohort of people**
@@ -45,7 +52,7 @@ kernelspec:
         - ...
         - Disease of the cardiovascular system
         
-### OMOP Relationship ###
+### Relationships ###
 - concept_relationship
     - `is a` - pointing up
     - `subsumes` - pointing down
@@ -99,9 +106,7 @@ kernelspec:
 ### Concept Relationship Table ####
 ![Images](images/concept_relationships.png)
 
-
-
-## OMOP CDM principles ###
+## OMOP CDM Overview ###
 1. patient centric
     - individual is storing information
     - not summary level data
@@ -137,21 +142,35 @@ The CDM is designed to support the conduct of research
     - health care interventions 
     - health outcomes.
 
-## OMOP Table that requires pre-population ##
-- PERSON
-- OBSERVATION_PERIOD
-- CONCEPT
-- VOCABULARY
-- DOMAIN
-- CONCEPT_CLASS
-- CONCEPT_RELATIONSHIP
-- RELATIONSHIP
-- CONCEPT_SYNONYM
-- CONCEPT_ANCESTOR
-- DRUG_STRENGTH
+## OMOP CDM Domains ##
+![Images](images/cdm_domains.png)
+
+## OMOP CDM Standard Concepts ##
+![Images](images/cdm_standard_concepts.png)
+
+
+## OMOP Table ##
+- that requires pre-population 
+1. PERSON
+1. OBSERVATION_PERIOD
+1. CONCEPT
+1. VOCABULARY
+1. DOMAIN
+1. CONCEPT_CLASS
+1. CONCEPT_RELATIONSHIP
+1. RELATIONSHIP
+1. CONCEPT_SYNONYM
+1. CONCEPT_ANCESTOR
+1. DRUG_STRENGTH
 
 ## OMOP CDM Principles ###
 ![Images](images/cdm_principles.png)
+
+## OMOP ETL flow ###
+![Images](images/etl_flow.png)
+
+## OMOP CDM ##
+![Images](images/omop_cdm.png)
 
 ### Condition ###
 ![Images](images/cdm_condition.png)

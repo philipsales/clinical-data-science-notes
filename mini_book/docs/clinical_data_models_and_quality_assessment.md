@@ -319,7 +319,7 @@ kernelspec:
 
 ## V. Data Quality Rules
     
-## Terminology
+### Terminology
 1. Atemporal 
     - do values, distributions, or densities agree with expected values 
     - example, is the prevalence of diabetes implied by the data in line with the known prevalence?
@@ -328,7 +328,7 @@ kernelspec:
     - example, are immunization sequences in line with recommendations? 
 
 
-## V. Practical Application 
+## VI. Practical Application 
 ### I. High Level ETL Process 
 #### 1. Extract
 - data exporting

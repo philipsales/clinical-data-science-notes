@@ -13,10 +13,26 @@
 - part: Data Management 
   sections:
     - file: docs/clinical_data_management_for_research
+    
+- part: Data Sharing 
+  sections:
+    - file: docs/research_data_management_and_sharing
 
+- part: Data Governance 
+  sections:
+    - file: docs/healthcare_data_quality_and_governance
+    
+- part: Phenotyping 
+  sections:
+    - file: docs/computational_phenotyping
+    
 - part: OHDSI
   sections:
     - file: docs/ohdsi_intro
     - file: docs/ohdsi_odm_standardized_vocabulary
-    - file: docs/ohdsi_etl
+    - file: docs/ohdsi_analytic
+    
 
+- part: Data Maturity Framework 
+  sections:
+    - file: docs/maturity_models
